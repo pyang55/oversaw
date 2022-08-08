@@ -13,10 +13,12 @@ Plex Token - https://support.plex.tv/articles/204059436-finding-an-authenticatio
 
 ## Build and run locally
 ``` go build -o oversaw ```
+
 ``` oversaw start-oversaw --token <PLEX-TOKEN> --apikey <OVERSEER-API-KEY> --overseer-url <overseer url or ip (http://192.168.0.100:5055 or https://requests.myplex.com  no need for trailing slash)> ```
 
 ## Run in docker
 ``` docker pull 08231990/oversaw:latest ```
+
 ``` docker run -e URL=<OVERSEER-URL> -e APIKEY=<OVERSEER-API-KEY> -e TOKEN=<PLEX-API-TOKEN> 08231990/oversaw:latest ```
 
 ## Run in Unraid
