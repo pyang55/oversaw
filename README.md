@@ -8,8 +8,9 @@ A play on the app "Overseer". This is a tool that makes the use of Unraid(or som
 
 ## Authentication
 For this feature we will need two sets of keys
-Overseer API Key - https://docs.overseerr.dev/using-overseerr/settings
-Plex Token - https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
+
+- Overseer API Key - https://docs.overseerr.dev/using-overseerr/settings
+- Plex Token - https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 
 ## Build and run locally
 ``` go build -o oversaw ```
